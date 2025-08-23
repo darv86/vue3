@@ -12,7 +12,9 @@
 }
 
 #app {
+	display: grid;
+	place-items: center;
 	min-height: 100dvh;
-	filter: invert();
 	background: var(--clr-bg);
+	filter: invert();
 }
